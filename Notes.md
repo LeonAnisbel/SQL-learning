@@ -24,12 +24,13 @@ Types of cardinality
 * May-to-many (many instances of an entity that are related to many instances of another entity)
 * One-to-one
 
-![ER diagrams components](.pictures/ER_diagram_components.png)\
+<img src="pictures/ER_diagram_components.png" width="700">
+
 ***Entities***: Userr, Course, Lecture\
 ***Attribute***: E.g. Title... \
 ***Relationship***: Studies, Teaches, Watches 
 
-![Entity-Relationship (ER) diagrams notation examples](.pictures/ER_diagram_notation.png "ER_diagram_notation")
+<img src="pictures/ER_diagram_notation.png" width="700">
 
 
 ### Data modelling 
@@ -38,15 +39,18 @@ Types of cardinality
 > Data is Normalised by creating other tables.\
 >  Normalisation is a key difference between star and snowflake schemas.  The dimension tables in the snowflake schema are normalised.
 
-
+* * *
+ <br>
+ 
 ## Module 2
-![SQL clauses](.pictures/SQL_clauses.png)\
+<img src="pictures/SQL_clause.png" width="400">
 
-![Order by and group by](.pictures/order_group_by.png)\
-> **Where** filters before data is grouped (rows eliminated by the where clause will not be included in the group)
-> **Having** filters after data is grouped
-> **Order by** sorts data
-> **Group by** does not sort data
+>**Where** filters before data is grouped (rows eliminated by the where clause will not be included in the group)\
+> **Having** filters after data is grouped\
+> **Order by** sorts data\
+> **Group by** does not sort data\
+><img src="pictures/order_group_by.png" width="400">
+
 
 * [SUM](https://www.geeksforgeeks.org/sqlite/sqlite-sum-function/)
 * [OR Operator](https://www.sqlitetutorial.net/sqlite-or-operator/)
@@ -54,13 +58,16 @@ Types of cardinality
 * [Order By](https://www.sqlitetutorial.net/sqlite-order-by/#:~:text=Introduction%20to%20SQLite%20ORDER%20BY%20clause&text=The%20ORDER%20BY%20clause%20comes,the%20ASC%20or%20DESC%20keyword.)
 * [Group By](https://www.sqlitetutorial.net/sqlite-group-by/)
 * [Exists](https://www.sqlitetutorial.net/sqlite-exists/)
+* [Having](https://www.sqlitetutorial.net/sqlite-having/)
 
 ***SQL for Various Data Science Languages***
 * [SQL for Python](https://pypi.org/project/python-sql/)
 * [SQLite for Python](https://docs.python.org/3/library/sqlite3.html)
 * [SQL for R](https://cran.r-project.org/web/packages/sqldf/sqldf.pdf)
 
-
-  ## Module 3
+* * *
+ <br>
+ 
+## Module 3
 * [Inner Join](https://www.sqlitetutorial.net/sqlite-inner-join/)
   
