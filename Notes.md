@@ -104,6 +104,7 @@ or use aliases\
 * Each SELECT statement within UNION must have the same number of columns
 * Columns must have similar data types
 * The columns in each SELECT statement must be in the same order
+* See also [UNION vs. UNIION ALL](https://blog.sqlauthority.com/2009/03/11/sql-server-difference-between-union-vs-union-all-optimal-performance-comparison/)
 <img src="pictures/union_code.png" width="400">
 
 <img src="pictures/all_joins.png" width="700">
