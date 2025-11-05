@@ -70,29 +70,33 @@ Types of cardinality
  
 ## Module 3
 Pre-qualify your names, try not to make unnecessary joins
-<img scr="pictures/join_with_pre-qualified_names.png" width="400">
+<img src="pictures/join_with_pre-qualified_names.png" width="400">
 
-or use aliases
-<img scr="pictures/using_alias.png" width="400">
+or use aliases\
+<img src="pictures/using_alias.png" width="400">
 
 **Self join**
-<img scr="pictures/self_join.png" width="400">
+<img src="pictures/self_join.png" width="400">
+
+**Cross join** (Cartesian join)
+* Each row from the first table joins with all the rows of another table
+<img src="pictures/cross_join.png" width="200">
 
 **Inner join**
 * The inner join keyword selects records that have matching values in both tables
 * [Inner Join](https://www.sqlitetutorial.net/sqlite-inner-join/)
-<img scr="pictures/inner_join.png" width="400">
+<img src="pictures/inner_join.png" width="200">
 
 **Left join**
 * Returns all records from the left table (table1), and the matched records from the right table (table 2).
 * The result is NULL from the right side, if there is no match
-<img scr="pictures/left_join.png" width="400">
+<img src="pictures/left_join.png" width="200">
 
 **Full outer join**
 * Returns all records where there is a match in either the left (table 1) or the right (table 2) table records
 * Basically, "give me everything"
-<img scr="pictures/full_outer_join.png" width="400">
-<img scr="pictures/full_outer_join_code.png" width="400">
+<img src="pictures/full_outer_join.png" width="200">
+<img src="pictures/full_outer_join_code.png" width="400">
 
 
 **UNION**
@@ -100,5 +104,7 @@ or use aliases
 * Each SELECT statement within UNION must have the same number of columns
 * Columns must have similar data types
 * The columns in each SELECT statement must be in the same order
-<img scr="pictures/union_code.png" width="400">
-  
+<img src="pictures/union_code.png" width="400">
+
+<img src="pictures/all_joins.png" width="700">
+
