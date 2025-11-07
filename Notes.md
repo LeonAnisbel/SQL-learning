@@ -69,13 +69,13 @@ Types of cardinality
  <br>
  
 ## Module 3
-Pre-qualify your names, try not to make unnecessary joins
+Pre-qualify your names, try not to make unnecessary joins\
 <img src="pictures/join_with_pre-qualified_names.png" width="400">
 
 or use aliases\
 <img src="pictures/using_alias.png" width="400">
 
-**Self join**
+**Self join**\
 <img src="pictures/self_join.png" width="400">
 
 **Cross join** (Cartesian join)
@@ -108,4 +108,48 @@ or use aliases\
 <img src="pictures/union_code.png" width="400">
 
 <img src="pictures/all_joins.png" width="700">
+
+
+* * *
+ <br>
+ 
+## Module 3
+**Text strings**\
+**Concatenations**\
+<img src="pictures/concatenations.png" width="300">\
+SQL server supports + instead of ||
+
+**Trimming**
+* Trims the leading or trailing spaces from a string (TRIM, LTRIM, RTRIM)
+<img src="pictures/string_trim.png" width="300">
+
+**Substring**\
+<img src="pictures/substr_example.png" width="300">
+
+**Upper and Lower case**\
+<img src="pictures/upper_lower_case.png" width="300">
+
+**Date and Time strings**\
+<img src="pictures/date_formats.png" width="200">
+<img src="pictures/modifiers.png" width="220">
+
+<img src="pictures/example1.png" width="220">
+<img src="pictures/example2.png" width="220">
+<img src="pictures/example3.png" width="220">
+<img src="pictures/example4.png" width="220">
+
+
+**Case expression**
+[CASE](https://www.sqlitetutorial.net/sqlite-case/)\
+<img src="pictures/case_example1.png" width="300">
+<img src="pictures/case_example2.png" width="400">
+
+**Views**
+* A stored query
+* Can add or remove columns without changing the schema
+* Use it to encapsulate queries
+* The view will be removed after the database connection has ended.
+<img src="pictures/view_example.png" width="400">
+
+[WITH statement](https://www.sqlitetutorial.net/sqlite-cte/)
 
